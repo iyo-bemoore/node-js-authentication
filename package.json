@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "client": "npm start --prefix client",
-    "server": "nodemon index.js -w",
+    "server": "nodemon  index.js -w",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "generate:tree":"mddir"
+  },
+  "nodemonConfig":{
+     "ignore":["client/*"]
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,7 @@
+export const authTypes = {
+  SIGN_IN: "SIGN_IN",
+  SIGN_OUT: "SIGN_OUT",
+  ADD_ERROR: "ADD_ERROR",
+  REMOVE_ERROR: "REMOVE_ERROR",
+  SET_LOADING: "SET_LOADING",
+};
